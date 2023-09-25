@@ -1,6 +1,8 @@
 using Chapter.EventBus;
+#if UNITY_EDITOR
 using UnityEditor.Timeline.Actions;
 using UnityEditor.Timeline;
+#endif
 using UnityEngine;
 
 namespace Chapter.Command
